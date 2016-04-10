@@ -1,0 +1,15 @@
+PODS:
+  - Operations (2.9.0):
+    - Operations/Standard (= 2.9.0)
+  - Operations/Standard (2.9.0)
+  - SMART (2.2.3)
+
+DEPENDENCIES:
+  - Operations
+  - SMART (~> 2.2)
+
+SPEC CHECKSUMS:
+  Operations: 62f6d7942ed37d06476426fb275233b21a48617c
+  SMART: b70f53bad246ce97da8549ad58640657b50e15e3
+
+COCOAPODS: 0.39.0
