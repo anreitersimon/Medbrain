@@ -6,7 +6,8 @@ use_frameworks!
 target 'Medbrain' do
 
 pod 'Operations'
-pod 'SMART', '~> 2.2'
+pod 'SMART', '~> 2.1'
+pod 'R.swift'
 
 end
 

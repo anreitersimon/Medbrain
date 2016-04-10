@@ -9,3 +9,5 @@ build
 .DS_Store
 xcuserdata/
 Pods/
+
+R.generated.swift

@@ -1,1109 +1,625 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>2B2D66EC3105713CAFA68C1A</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_Medbrain.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3CA953E91CB9694800B0C80E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3CA953F41CB9694800B0C80E</string>
-				<string>3CA954091CB9694800B0C80E</string>
-				<string>3CA954141CB9694900B0C80E</string>
-				<string>3CA953F31CB9694800B0C80E</string>
-				<string>AACD75923C9DA2C2C0AE57D5</string>
-				<string>908C9A73D0E8C84CDBC71603</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA953EA1CB9694800B0C80E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0730</string>
-				<key>LastUpgradeCheck</key>
-				<string>0730</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>anreiter.simon</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>3CA953F11CB9694800B0C80E</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-					</dict>
-					<key>3CA954051CB9694800B0C80E</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>3CA953F11CB9694800B0C80E</string>
-					</dict>
-					<key>3CA954101CB9694900B0C80E</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.3</string>
-						<key>TestTargetID</key>
-						<string>3CA953F11CB9694800B0C80E</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>3CA953ED1CB9694800B0C80E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>3CA953E91CB9694800B0C80E</string>
-			<key>productRefGroup</key>
-			<string>3CA953F31CB9694800B0C80E</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>3CA953F11CB9694800B0C80E</string>
-				<string>3CA954051CB9694800B0C80E</string>
-				<string>3CA954101CB9694900B0C80E</string>
-			</array>
-		</dict>
-		<key>3CA953ED1CB9694800B0C80E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3CA954181CB9694900B0C80E</string>
-				<string>3CA954191CB9694900B0C80E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3CA953EE1CB9694800B0C80E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3CA953F61CB9694800B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3CA953EF1CB9694800B0C80E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FD0FF50B6700AC79A55DE29A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3CA953F01CB9694800B0C80E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3CA954001CB9694800B0C80E</string>
-				<string>3CA953FD1CB9694800B0C80E</string>
-				<string>3CA953FB1CB9694800B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3CA953F11CB9694800B0C80E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3CA9541A1CB9694900B0C80E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>583ADC4366DF2C8207DCAB95</string>
-				<string>3CA953EE1CB9694800B0C80E</string>
-				<string>3CA953EF1CB9694800B0C80E</string>
-				<string>3CA953F01CB9694800B0C80E</string>
-				<string>D8FCA0AF474CA9DD7934B1D3</string>
-				<string>5BC6B9F9A8B7F463740AA983</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Medbrain</string>
-			<key>productName</key>
-			<string>Medbrain</string>
-			<key>productReference</key>
-			<string>3CA953F21CB9694800B0C80E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>3CA953F21CB9694800B0C80E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Medbrain.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3CA953F31CB9694800B0C80E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3CA953F21CB9694800B0C80E</string>
-				<string>3CA954061CB9694800B0C80E</string>
-				<string>3CA954111CB9694900B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA953F41CB9694800B0C80E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3CA953F51CB9694800B0C80E</string>
-				<string>3CA953F91CB9694800B0C80E</string>
-				<string>3CA953FC1CB9694800B0C80E</string>
-				<string>3CA953FE1CB9694800B0C80E</string>
-				<string>3CA954011CB9694800B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>Medbrain</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA953F51CB9694800B0C80E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA953F61CB9694800B0C80E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3CA953F51CB9694800B0C80E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CA953F91CB9694800B0C80E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3CA953FA1CB9694800B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA953FA1CB9694800B0C80E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA953FB1CB9694800B0C80E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3CA953F91CB9694800B0C80E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CA953FC1CB9694800B0C80E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA953FD1CB9694800B0C80E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3CA953FC1CB9694800B0C80E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CA953FE1CB9694800B0C80E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3CA953FF1CB9694800B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA953FF1CB9694800B0C80E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA954001CB9694800B0C80E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3CA953FE1CB9694800B0C80E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CA954011CB9694800B0C80E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA954021CB9694800B0C80E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3CA9540B1CB9694800B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3CA954031CB9694800B0C80E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3CA954041CB9694800B0C80E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3CA954051CB9694800B0C80E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3CA9541D1CB9694900B0C80E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3CA954021CB9694800B0C80E</string>
-				<string>3CA954031CB9694800B0C80E</string>
-				<string>3CA954041CB9694800B0C80E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3CA954081CB9694800B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MedbrainTests</string>
-			<key>productName</key>
-			<string>MedbrainTests</string>
-			<key>productReference</key>
-			<string>3CA954061CB9694800B0C80E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>3CA954061CB9694800B0C80E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MedbrainTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3CA954071CB9694800B0C80E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>3CA953EA1CB9694800B0C80E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3CA953F11CB9694800B0C80E</string>
-			<key>remoteInfo</key>
-			<string>Medbrain</string>
-		</dict>
-		<key>3CA954081CB9694800B0C80E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>3CA953F11CB9694800B0C80E</string>
-			<key>targetProxy</key>
-			<string>3CA954071CB9694800B0C80E</string>
-		</dict>
-		<key>3CA954091CB9694800B0C80E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3CA9540A1CB9694800B0C80E</string>
-				<string>3CA9540C1CB9694800B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>MedbrainTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA9540A1CB9694800B0C80E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MedbrainTests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA9540B1CB9694800B0C80E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3CA9540A1CB9694800B0C80E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CA9540C1CB9694800B0C80E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA9540D1CB9694900B0C80E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3CA954161CB9694900B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3CA9540E1CB9694900B0C80E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3CA9540F1CB9694900B0C80E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3CA954101CB9694900B0C80E</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3CA954201CB9694900B0C80E</string>
-			<key>buildPhases</key>
-			<array>
-				<string>3CA9540D1CB9694900B0C80E</string>
-				<string>3CA9540E1CB9694900B0C80E</string>
-				<string>3CA9540F1CB9694900B0C80E</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3CA954131CB9694900B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MedbrainUITests</string>
-			<key>productName</key>
-			<string>MedbrainUITests</string>
-			<key>productReference</key>
-			<string>3CA954111CB9694900B0C80E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.ui-testing</string>
-		</dict>
-		<key>3CA954111CB9694900B0C80E</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>MedbrainUITests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3CA954121CB9694900B0C80E</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>3CA953EA1CB9694800B0C80E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>3CA953F11CB9694800B0C80E</string>
-			<key>remoteInfo</key>
-			<string>Medbrain</string>
-		</dict>
-		<key>3CA954131CB9694900B0C80E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>3CA953F11CB9694800B0C80E</string>
-			<key>targetProxy</key>
-			<string>3CA954121CB9694900B0C80E</string>
-		</dict>
-		<key>3CA954141CB9694900B0C80E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3CA954151CB9694900B0C80E</string>
-				<string>3CA954171CB9694900B0C80E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>MedbrainUITests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA954151CB9694900B0C80E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>MedbrainUITests.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA954161CB9694900B0C80E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3CA954151CB9694900B0C80E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3CA954171CB9694900B0C80E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3CA954181CB9694900B0C80E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3CA954191CB9694900B0C80E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_ANALYZER_NONNULL</key>
-				<string>YES</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3CA9541A1CB9694900B0C80E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3CA9541B1CB9694900B0C80E</string>
-				<string>3CA9541C1CB9694900B0C80E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3CA9541B1CB9694900B0C80E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>9C4B5ECEAD73893A2F488FDD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Medbrain/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>anreiter.simon.${PRODUCT_NAME:rfc1034identifier:lower}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3CA9541C1CB9694900B0C80E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>87E4B25735A249E385F95EBD</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Medbrain/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>anreiter.simon.${PRODUCT_NAME:rfc1034identifier:lower}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3CA9541D1CB9694900B0C80E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3CA9541E1CB9694900B0C80E</string>
-				<string>3CA9541F1CB9694900B0C80E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3CA9541E1CB9694900B0C80E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MedbrainTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>anreiter.simon.MedbrainTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Medbrain.app/Medbrain</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3CA9541F1CB9694900B0C80E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(TEST_HOST)</string>
-				<key>INFOPLIST_FILE</key>
-				<string>MedbrainTests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>anreiter.simon.MedbrainTests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_HOST</key>
-				<string>$(BUILT_PRODUCTS_DIR)/Medbrain.app/Medbrain</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3CA954201CB9694900B0C80E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>3CA954211CB9694900B0C80E</string>
-				<string>3CA954221CB9694900B0C80E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3CA954211CB9694900B0C80E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>MedbrainUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>anreiter.simon.MedbrainUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>Medbrain</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3CA954221CB9694900B0C80E</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>INFOPLIST_FILE</key>
-				<string>MedbrainUITests/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>anreiter.simon.MedbrainUITests</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>TEST_TARGET_NAME</key>
-				<string>Medbrain</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>583ADC4366DF2C8207DCAB95</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>5BC6B9F9A8B7F463740AA983</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Medbrain/Pods-Medbrain-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>87E4B25735A249E385F95EBD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Medbrain.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Medbrain/Pods-Medbrain.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>908C9A73D0E8C84CDBC71603</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2B2D66EC3105713CAFA68C1A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9C4B5ECEAD73893A2F488FDD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Medbrain.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-Medbrain/Pods-Medbrain.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AACD75923C9DA2C2C0AE57D5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9C4B5ECEAD73893A2F488FDD</string>
-				<string>87E4B25735A249E385F95EBD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8FCA0AF474CA9DD7934B1D3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Medbrain/Pods-Medbrain-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>FD0FF50B6700AC79A55DE29A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B2D66EC3105713CAFA68C1A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>3CA953EA1CB9694800B0C80E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C40EB061CBA72410087C071 /* SignedInCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40EB051CBA72410087C071 /* SignedInCondition.swift */; };
+		3C40EB091CBAAD500087C071 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40EB081CBAAD500087C071 /* R.generated.swift */; };
+		3CA953F61CB9694800B0C80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA953F51CB9694800B0C80E /* AppDelegate.swift */; };
+		3CA953FB1CB9694800B0C80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA953F91CB9694800B0C80E /* Main.storyboard */; };
+		3CA953FD1CB9694800B0C80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CA953FC1CB9694800B0C80E /* Assets.xcassets */; };
+		3CA954001CB9694800B0C80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA953FE1CB9694800B0C80E /* LaunchScreen.storyboard */; };
+		3CA9540B1CB9694800B0C80E /* MedbrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA9540A1CB9694800B0C80E /* MedbrainTests.swift */; };
+		3CA954161CB9694900B0C80E /* MedbrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA954151CB9694900B0C80E /* MedbrainUITests.swift */; };
+		3CFF187F1CBAB09C00B71AC1 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFF187E1CBAB09C00B71AC1 /* SignIn.storyboard */; };
+		3CFF18811CBAB0C300B71AC1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF18801CBAB0C300B71AC1 /* SignInViewController.swift */; };
+		3CFF18831CBAB0F000B71AC1 /* PresentationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF18821CBAB0F000B71AC1 /* PresentationContext.swift */; };
+		3CFF18851CBAB61500B71AC1 /* PatientMedicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF18841CBAB61500B71AC1 /* PatientMedicationsViewController.swift */; };
+		FD0FF50B6700AC79A55DE29A /* Pods_Medbrain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B2D66EC3105713CAFA68C1A /* Pods_Medbrain.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CA954071CB9694800B0C80E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CA953EA1CB9694800B0C80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA953F11CB9694800B0C80E;
+			remoteInfo = Medbrain;
+		};
+		3CA954121CB9694900B0C80E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CA953EA1CB9694800B0C80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CA953F11CB9694800B0C80E;
+			remoteInfo = Medbrain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B2D66EC3105713CAFA68C1A /* Pods_Medbrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medbrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C40EB051CBA72410087C071 /* SignedInCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignedInCondition.swift; sourceTree = "<group>"; };
+		3C40EB081CBAAD500087C071 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		3CA953F21CB9694800B0C80E /* Medbrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medbrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA953F51CB9694800B0C80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CA953FA1CB9694800B0C80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CA953FC1CB9694800B0C80E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CA953FF1CB9694800B0C80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CA954011CB9694800B0C80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA954061CB9694800B0C80E /* MedbrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedbrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA9540A1CB9694800B0C80E /* MedbrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedbrainTests.swift; sourceTree = "<group>"; };
+		3CA9540C1CB9694800B0C80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CA954111CB9694900B0C80E /* MedbrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedbrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA954151CB9694900B0C80E /* MedbrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedbrainUITests.swift; sourceTree = "<group>"; };
+		3CA954171CB9694900B0C80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CFF187E1CBAB09C00B71AC1 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		3CFF18801CBAB0C300B71AC1 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3CFF18821CBAB0F000B71AC1 /* PresentationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationContext.swift; sourceTree = "<group>"; };
+		3CFF18841CBAB61500B71AC1 /* PatientMedicationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientMedicationsViewController.swift; sourceTree = "<group>"; };
+		87E4B25735A249E385F95EBD /* Pods-Medbrain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medbrain.release.xcconfig"; path = "Pods/Target Support Files/Pods-Medbrain/Pods-Medbrain.release.xcconfig"; sourceTree = "<group>"; };
+		9C4B5ECEAD73893A2F488FDD /* Pods-Medbrain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Medbrain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Medbrain/Pods-Medbrain.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CA953EF1CB9694800B0C80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0FF50B6700AC79A55DE29A /* Pods_Medbrain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA954031CB9694800B0C80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA9540E1CB9694900B0C80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CA953E91CB9694800B0C80E = {
+			isa = PBXGroup;
+			children = (
+				3CA953F41CB9694800B0C80E /* Medbrain */,
+				3CA954091CB9694800B0C80E /* MedbrainTests */,
+				3CA954141CB9694900B0C80E /* MedbrainUITests */,
+				3CA953F31CB9694800B0C80E /* Products */,
+				AACD75923C9DA2C2C0AE57D5 /* Pods */,
+				908C9A73D0E8C84CDBC71603 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CA953F31CB9694800B0C80E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CA953F21CB9694800B0C80E /* Medbrain.app */,
+				3CA954061CB9694800B0C80E /* MedbrainTests.xctest */,
+				3CA954111CB9694900B0C80E /* MedbrainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CA953F41CB9694800B0C80E /* Medbrain */ = {
+			isa = PBXGroup;
+			children = (
+				3C40EB081CBAAD500087C071 /* R.generated.swift */,
+				3CA953F51CB9694800B0C80E /* AppDelegate.swift */,
+				3CA953F91CB9694800B0C80E /* Main.storyboard */,
+				3CA953FC1CB9694800B0C80E /* Assets.xcassets */,
+				3CA953FE1CB9694800B0C80E /* LaunchScreen.storyboard */,
+				3CA954011CB9694800B0C80E /* Info.plist */,
+				3C40EB051CBA72410087C071 /* SignedInCondition.swift */,
+				3CFF187E1CBAB09C00B71AC1 /* SignIn.storyboard */,
+				3CFF18801CBAB0C300B71AC1 /* SignInViewController.swift */,
+				3CFF18821CBAB0F000B71AC1 /* PresentationContext.swift */,
+				3CFF18841CBAB61500B71AC1 /* PatientMedicationsViewController.swift */,
+			);
+			path = Medbrain;
+			sourceTree = "<group>";
+		};
+		3CA954091CB9694800B0C80E /* MedbrainTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CA9540A1CB9694800B0C80E /* MedbrainTests.swift */,
+				3CA9540C1CB9694800B0C80E /* Info.plist */,
+			);
+			path = MedbrainTests;
+			sourceTree = "<group>";
+		};
+		3CA954141CB9694900B0C80E /* MedbrainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CA954151CB9694900B0C80E /* MedbrainUITests.swift */,
+				3CA954171CB9694900B0C80E /* Info.plist */,
+			);
+			path = MedbrainUITests;
+			sourceTree = "<group>";
+		};
+		908C9A73D0E8C84CDBC71603 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D66EC3105713CAFA68C1A /* Pods_Medbrain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AACD75923C9DA2C2C0AE57D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C4B5ECEAD73893A2F488FDD /* Pods-Medbrain.debug.xcconfig */,
+				87E4B25735A249E385F95EBD /* Pods-Medbrain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CA953F11CB9694800B0C80E /* Medbrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA9541A1CB9694900B0C80E /* Build configuration list for PBXNativeTarget "Medbrain" */;
+			buildPhases = (
+				583ADC4366DF2C8207DCAB95 /* Check Pods Manifest.lock */,
+				3C40EB071CBAABF80087C071 /* ShellScript */,
+				3CA953EE1CB9694800B0C80E /* Sources */,
+				3CA953EF1CB9694800B0C80E /* Frameworks */,
+				3CA953F01CB9694800B0C80E /* Resources */,
+				D8FCA0AF474CA9DD7934B1D3 /* Embed Pods Frameworks */,
+				5BC6B9F9A8B7F463740AA983 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Medbrain;
+			productName = Medbrain;
+			productReference = 3CA953F21CB9694800B0C80E /* Medbrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CA954051CB9694800B0C80E /* MedbrainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA9541D1CB9694900B0C80E /* Build configuration list for PBXNativeTarget "MedbrainTests" */;
+			buildPhases = (
+				3CA954021CB9694800B0C80E /* Sources */,
+				3CA954031CB9694800B0C80E /* Frameworks */,
+				3CA954041CB9694800B0C80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CA954081CB9694800B0C80E /* PBXTargetDependency */,
+			);
+			name = MedbrainTests;
+			productName = MedbrainTests;
+			productReference = 3CA954061CB9694800B0C80E /* MedbrainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CA954101CB9694900B0C80E /* MedbrainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CA954201CB9694900B0C80E /* Build configuration list for PBXNativeTarget "MedbrainUITests" */;
+			buildPhases = (
+				3CA9540D1CB9694900B0C80E /* Sources */,
+				3CA9540E1CB9694900B0C80E /* Frameworks */,
+				3CA9540F1CB9694900B0C80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CA954131CB9694900B0C80E /* PBXTargetDependency */,
+			);
+			name = MedbrainUITests;
+			productName = MedbrainUITests;
+			productReference = 3CA954111CB9694900B0C80E /* MedbrainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CA953EA1CB9694800B0C80E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = anreiter.simon;
+				TargetAttributes = {
+					3CA953F11CB9694800B0C80E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3CA954051CB9694800B0C80E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3CA953F11CB9694800B0C80E;
+					};
+					3CA954101CB9694900B0C80E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3CA953F11CB9694800B0C80E;
+					};
+				};
+			};
+			buildConfigurationList = 3CA953ED1CB9694800B0C80E /* Build configuration list for PBXProject "Medbrain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CA953E91CB9694800B0C80E;
+			productRefGroup = 3CA953F31CB9694800B0C80E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CA953F11CB9694800B0C80E /* Medbrain */,
+				3CA954051CB9694800B0C80E /* MedbrainTests */,
+				3CA954101CB9694900B0C80E /* MedbrainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CA953F01CB9694800B0C80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFF187F1CBAB09C00B71AC1 /* SignIn.storyboard in Resources */,
+				3CA954001CB9694800B0C80E /* LaunchScreen.storyboard in Resources */,
+				3CA953FD1CB9694800B0C80E /* Assets.xcassets in Resources */,
+				3CA953FB1CB9694800B0C80E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA954041CB9694800B0C80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA9540F1CB9694900B0C80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C40EB071CBAABF80087C071 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
+		583ADC4366DF2C8207DCAB95 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5BC6B9F9A8B7F463740AA983 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Medbrain/Pods-Medbrain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8FCA0AF474CA9DD7934B1D3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Medbrain/Pods-Medbrain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CA953EE1CB9694800B0C80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFF18811CBAB0C300B71AC1 /* SignInViewController.swift in Sources */,
+				3C40EB061CBA72410087C071 /* SignedInCondition.swift in Sources */,
+				3CA953F61CB9694800B0C80E /* AppDelegate.swift in Sources */,
+				3CFF18851CBAB61500B71AC1 /* PatientMedicationsViewController.swift in Sources */,
+				3CFF18831CBAB0F000B71AC1 /* PresentationContext.swift in Sources */,
+				3C40EB091CBAAD500087C071 /* R.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA954021CB9694800B0C80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA9540B1CB9694800B0C80E /* MedbrainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA9540D1CB9694900B0C80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CA954161CB9694900B0C80E /* MedbrainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CA954081CB9694800B0C80E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CA953F11CB9694800B0C80E /* Medbrain */;
+			targetProxy = 3CA954071CB9694800B0C80E /* PBXContainerItemProxy */;
+		};
+		3CA954131CB9694900B0C80E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CA953F11CB9694800B0C80E /* Medbrain */;
+			targetProxy = 3CA954121CB9694900B0C80E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CA953F91CB9694800B0C80E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA953FA1CB9694800B0C80E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CA953FE1CB9694800B0C80E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CA953FF1CB9694800B0C80E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CA954181CB9694900B0C80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CA954191CB9694900B0C80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CA9541B1CB9694900B0C80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4B5ECEAD73893A2F488FDD /* Pods-Medbrain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Medbrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anreiter.simon.${PRODUCT_NAME:rfc1034identifier:lower}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		3CA9541C1CB9694900B0C80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E4B25735A249E385F95EBD /* Pods-Medbrain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = Medbrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "anreiter.simon.${PRODUCT_NAME:rfc1034identifier:lower}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		3CA9541E1CB9694900B0C80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedbrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anreiter.simon.MedbrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medbrain.app/Medbrain";
+			};
+			name = Debug;
+		};
+		3CA9541F1CB9694900B0C80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MedbrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anreiter.simon.MedbrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medbrain.app/Medbrain";
+			};
+			name = Release;
+		};
+		3CA954211CB9694900B0C80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MedbrainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anreiter.simon.MedbrainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Medbrain;
+			};
+			name = Debug;
+		};
+		3CA954221CB9694900B0C80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MedbrainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anreiter.simon.MedbrainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Medbrain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CA953ED1CB9694800B0C80E /* Build configuration list for PBXProject "Medbrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA954181CB9694900B0C80E /* Debug */,
+				3CA954191CB9694900B0C80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA9541A1CB9694900B0C80E /* Build configuration list for PBXNativeTarget "Medbrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA9541B1CB9694900B0C80E /* Debug */,
+				3CA9541C1CB9694900B0C80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA9541D1CB9694900B0C80E /* Build configuration list for PBXNativeTarget "MedbrainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA9541E1CB9694900B0C80E /* Debug */,
+				3CA9541F1CB9694900B0C80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CA954201CB9694900B0C80E /* Build configuration list for PBXNativeTarget "MedbrainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA954211CB9694900B0C80E /* Debug */,
+				3CA954221CB9694900B0C80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CA953EA1CB9694800B0C80E /* Project object */;
+}

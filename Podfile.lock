@@ -2,14 +2,20 @@ PODS:
   - Operations (2.9.0):
     - Operations/Standard (= 2.9.0)
   - Operations/Standard (2.9.0)
+  - R.swift (2.1.0):
+    - R.swift.Library (~> 2.0.0)
+  - R.swift.Library (2.0.0)
   - SMART (2.2.3)
 
 DEPENDENCIES:
   - Operations
-  - SMART (~> 2.2)
+  - R.swift
+  - SMART (~> 2.1)
 
 SPEC CHECKSUMS:
   Operations: 62f6d7942ed37d06476426fb275233b21a48617c
+  R.swift: efff131531b5cf142e28fd94957806ff71ccbcf2
+  R.swift.Library: 9f4b2d12040daa1ffe336d8f7e1574f73721fd01
   SMART: b70f53bad246ce97da8549ad58640657b50e15e3
 
 COCOAPODS: 0.39.0

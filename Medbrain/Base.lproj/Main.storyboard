@@ -27,7 +27,7 @@
         <!--Item 1-->
         <scene sceneID="Kv9-rh-wcC">
             <objects>
-                <viewController id="BVc-aT-Wv7" sceneMemberID="viewController">
+                <viewController id="BVc-aT-Wv7" customClass="PatientMedicationsViewController" customModule="Medbrain" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yE3-yd-i1c"/>
                         <viewControllerLayoutGuide type="bottom" id="m6J-B6-GLv"/>
