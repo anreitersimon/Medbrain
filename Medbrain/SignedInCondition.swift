@@ -15,6 +15,8 @@ class SignInController {
     static let sharedSignInController: SignInController = SignInController()
 
     var patient: Patient?
+
+    let server = Server(base: "http://spark.furore.com/fhir")
 }
 
 enum SignedInConditionError: ErrorType {
@@ -47,6 +49,8 @@ struct SignedInCondition: OperationCondition {
             result = .Failed( SignedInConditionError.NotSignedIn)
         }
 
+        //R.color
+
         completion(result)
     }
 }
@@ -67,10 +71,15 @@ class SignInOperation: Operation {
         }
 
         let controller = R.storyboard.signIn.signInViewControllerNavigationWrapper()!
+        let signInController = controller.topViewController as? SignInViewController
 
-        presentViewController(inPresentationContext: self.presentationContext, viewControllerToPresent: controller, animated: true) {
-            self.finish()
+        signInController?.completionHandler = {
+            $0.dismissViewControllerAnimated(true, completion: {
+                self.finish()
+            })
         }
+
+        presentViewController(inPresentationContext: self.presentationContext, viewControllerToPresent: controller, animated: true, completion: nil)
 
 
     }
