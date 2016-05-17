@@ -35,11 +35,9 @@ extension LoadingState {
     var needsLoadingIndicator: Bool {
         return self == .LoadingContent
     }
-
 }
 
 class PatientMedicationsViewController: UITableViewController {
-
     lazy var queue = OperationQueue()
 
     var medications: [MedicationOrder]?
@@ -55,9 +53,13 @@ class PatientMedicationsViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 60
+
         self.refreshControl = UIRefreshControl()
         self.refreshControl?.addTarget(self, action: #selector(refresh(_:)), forControlEvents: .ValueChanged)
 
+        navigationItem.title = "Medikationen"
 
         container = UIView(frame: CGRect.zero)
 
@@ -73,22 +75,22 @@ class PatientMedicationsViewController: UITableViewController {
         container.addSubview(label)
         container.addSubview(activityIndicator)
 
-
         label.leadingAnchor.constraintEqualToAnchor(container.layoutMarginsGuide.leadingAnchor).active = true
         label.topAnchor.constraintEqualToAnchor(container.layoutMarginsGuide.topAnchor).active = true
+
         container.layoutMarginsGuide.trailingAnchor.constraintEqualToAnchor(label.trailingAnchor).active = true
         container.layoutMarginsGuide.bottomAnchor.constraintEqualToAnchor(label.bottomAnchor).active = true
 
         activityIndicator.centerXAnchor.constraintEqualToAnchor(container.layoutMarginsGuide.centerXAnchor).active = true
         activityIndicator.centerYAnchor.constraintEqualToAnchor(container.layoutMarginsGuide.centerYAnchor).active = true
-
-
-
-
     }
 
     func configureForState(state: LoadingState) {
         let tuple = (state.needsLoadingIndicator, state.message)
+
+        if state == .Refreshing {
+            return
+        }
 
         switch tuple {
         case (true, _):
@@ -96,7 +98,7 @@ class PatientMedicationsViewController: UITableViewController {
             tableView.separatorStyle = .None
             activityIndicator.startAnimating()
             label.hidden = true
-        case(false, .Some(let message) ):
+        case (false, .Some(let message)):
             tableView.backgroundView = container
             tableView.separatorStyle = .None
             activityIndicator.stopAnimating()
@@ -107,10 +109,16 @@ class PatientMedicationsViewController: UITableViewController {
             tableView.backgroundView = nil
             activityIndicator.stopAnimating()
             tableView.separatorStyle = .SingleLine
-
         }
     }
 
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+
+        navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        navigationController?.navigationBar.barTintColor = UIColor.redColor()
+        tabBarController?.view.tintColor = UIColor.redColor()
+    }
 
     var state = LoadingState.Initial {
         didSet {
@@ -120,9 +128,7 @@ class PatientMedicationsViewController: UITableViewController {
     }
 
     func loadContent() {
-
         switch state {
-
         case .LoadingContent, .Refreshing:
             return
         case .Initial:
@@ -131,9 +137,11 @@ class PatientMedicationsViewController: UITableViewController {
             state = .Refreshing
         }
 
-
         let op = BlockOperation {
-            MedicationOrder.search(["patient":SignInController.sharedSignInController.patient!.id!]).perform(SignInController.sharedSignInController.server) { [weak self] (bundle, error) in
+            guard let id = SignInController.sharedSignInController.patient?.id else {
+                return
+            }
+            MedicationOrder.search(["patient": id]).perform(SignInController.sharedSignInController.server) { [weak self](bundle, error) in
 
                 guard let strongSelf = self else {
                     return
@@ -143,19 +151,16 @@ class PatientMedicationsViewController: UITableViewController {
                     return
                 }
 
-
-
                 let meds = bundle?.entry?
                     .filter() { return $0.resource is MedicationOrder }
                     .map() { return $0.resource as! MedicationOrder } ?? []
 
                 dispatch_async(dispatch_get_main_queue()) {
                     strongSelf.refreshControl?.endRefreshing()
-                    strongSelf.state = meds.isEmpty ?  .NoContent : .ContentLoaded
+                    strongSelf.state = meds.isEmpty ? .NoContent : .ContentLoaded
 
                     strongSelf.medications = meds
                     strongSelf.tableView.reloadData()
-
                 }
             }
         }
@@ -167,7 +172,6 @@ class PatientMedicationsViewController: UITableViewController {
 
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-
 
         loadContent()
     }
@@ -183,10 +187,45 @@ class PatientMedicationsViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier(R.reuseIdentifier.cell)!
 
-
         let medication = medications![indexPath.row]
 
+        let boundsPeriod = medication.dosageInstruction?.first?.timing?.repeat_fhir?.boundsPeriod
+
+        let start = boundsPeriod?.start?.nsDate, end = boundsPeriod?.end?.nsDate
+
         cell.textLabel?.text = medicationName(medication)
+        cell.detailTextLabel?.text = nil
+        cell.textLabel?.numberOfLines = 0
+
+        if let val = medication.dosageInstruction?.first?.doseQuantity?.value,
+            unit = medication.dosageInstruction?.first?.doseQuantity?.unit,
+            durUnits = medication.dosageInstruction?.first?.timing?.repeat_fhir?.durationUnits,
+            d = medication.dosageInstruction?.first?.timing?.repeat_fhir?.duration {
+                // s | min | h | d | wk | mo
+
+                cell.textLabel?.text = "\(medication.medicationReference?.resolved(Medication)?.description ?? "-" ) :\(val) \(unit), every \(d) \(durUnits)"
+
+                var timeInterval: NSTimeInterval?
+//
+//            switch units {
+//            case "s":
+//                timeInterval = 1
+//            case "min":
+//                timeInterval = 60
+//            case "h":
+//                timeInterval = 60*60
+//            case "d":
+//                timeInterval = 60*60*24
+//            case "wk":
+//                timeInterval = 60*60*24*7
+//            case "mo":
+//                timeInterval = 60*60*24*7*30
+//            default:
+//                timeInterval = nil
+//            }
+        }
+
+        print("from :\(start) - to: \(end)")
 
         return cell
     }
@@ -200,12 +239,11 @@ class PatientMedicationsViewController: UITableViewController {
             do {
                 let stripTags = try NSRegularExpression(pattern: "(<[^>]+>\\s*)|(\\r?\\n)", options: .CaseInsensitive)
                 return stripTags.stringByReplacingMatchesInString(html, options: [], range: NSMakeRange(0, html.characters.count), withTemplate: "")
-            } catch {}
+            } catch { }
         }
         if let display = med.medicationReference?.display {
             return display
         }
         return "No medication and no narrative"
     }
-
 }

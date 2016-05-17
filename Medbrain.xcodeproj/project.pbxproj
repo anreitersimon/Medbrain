@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C37F27F1CBEA83900A6BBFE /* AccountSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C37F27E1CBEA83900A6BBFE /* AccountSettings.storyboard */; };
+		3C37F2831CBEC0A200A6BBFE /* AccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C37F2821CBEC0A200A6BBFE /* AccountSettingsViewController.swift */; };
 		3C40EB061CBA72410087C071 /* SignedInCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40EB051CBA72410087C071 /* SignedInCondition.swift */; };
 		3C40EB091CBAAD500087C071 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40EB081CBAAD500087C071 /* R.generated.swift */; };
 		3CA953F61CB9694800B0C80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA953F51CB9694800B0C80E /* AppDelegate.swift */; };
@@ -15,6 +17,7 @@
 		3CA954001CB9694800B0C80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA953FE1CB9694800B0C80E /* LaunchScreen.storyboard */; };
 		3CA9540B1CB9694800B0C80E /* MedbrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA9540A1CB9694800B0C80E /* MedbrainTests.swift */; };
 		3CA954161CB9694900B0C80E /* MedbrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA954151CB9694900B0C80E /* MedbrainUITests.swift */; };
+		3CB608521CCCD9A900E532CB /* ConvenienceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB608511CCCD9A900E532CB /* ConvenienceExtensions.swift */; };
 		3CB9BDA51CBAD049004AD965 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3CB9BDA71CBAD049004AD965 /* Localizable.strings */; };
 		3CFF187F1CBAB09C00B71AC1 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFF187E1CBAB09C00B71AC1 /* SignIn.storyboard */; };
 		3CFF18811CBAB0C300B71AC1 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFF18801CBAB0C300B71AC1 /* SignInViewController.swift */; };
@@ -44,6 +47,8 @@
 
 /* Begin PBXFileReference section */
 		2B2D66EC3105713CAFA68C1A /* Pods_Medbrain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Medbrain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C37F27E1CBEA83900A6BBFE /* AccountSettings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AccountSettings.storyboard; sourceTree = "<group>"; };
+		3C37F2821CBEC0A200A6BBFE /* AccountSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSettingsViewController.swift; sourceTree = "<group>"; };
 		3C40EB051CBA72410087C071 /* SignedInCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignedInCondition.swift; sourceTree = "<group>"; };
 		3C40EB081CBAAD500087C071 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		3CA953F21CB9694800B0C80E /* Medbrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medbrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +63,7 @@
 		3CA954111CB9694900B0C80E /* MedbrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedbrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA954151CB9694900B0C80E /* MedbrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedbrainUITests.swift; sourceTree = "<group>"; };
 		3CA954171CB9694900B0C80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB608511CCCD9A900E532CB /* ConvenienceExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvenienceExtensions.swift; sourceTree = "<group>"; };
 		3CB9BDA61CBAD049004AD965 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3CFF187E1CBAB09C00B71AC1 /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		3CFF18801CBAB0C300B71AC1 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -129,11 +135,14 @@
 				3CA954011CB9694800B0C80E /* Info.plist */,
 				3C40EB051CBA72410087C071 /* SignedInCondition.swift */,
 				3CFF187E1CBAB09C00B71AC1 /* SignIn.storyboard */,
+				3C37F27E1CBEA83900A6BBFE /* AccountSettings.storyboard */,
+				3C37F2821CBEC0A200A6BBFE /* AccountSettingsViewController.swift */,
 				3CFF18801CBAB0C300B71AC1 /* SignInViewController.swift */,
 				3CFF18821CBAB0F000B71AC1 /* PresentationContext.swift */,
 				3CFF18841CBAB61500B71AC1 /* PatientMedicationsViewController.swift */,
 				3CFF18861CBAB7B700B71AC1 /* Validation.swift */,
 				3CB9BDA71CBAD049004AD965 /* Localizable.strings */,
+				3CB608511CCCD9A900E532CB /* ConvenienceExtensions.swift */,
 			);
 			path = Medbrain;
 			sourceTree = "<group>";
@@ -290,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CB9BDA51CBAD049004AD965 /* Localizable.strings in Resources */,
+				3C37F27F1CBEA83900A6BBFE /* AccountSettings.storyboard in Resources */,
 				3CFF187F1CBAB09C00B71AC1 /* SignIn.storyboard in Resources */,
 				3CA954001CB9694800B0C80E /* LaunchScreen.storyboard in Resources */,
 				3CA953FD1CB9694800B0C80E /* Assets.xcassets in Resources */,
@@ -381,10 +391,12 @@
 			files = (
 				3CFF18811CBAB0C300B71AC1 /* SignInViewController.swift in Sources */,
 				3C40EB061CBA72410087C071 /* SignedInCondition.swift in Sources */,
+				3C37F2831CBEC0A200A6BBFE /* AccountSettingsViewController.swift in Sources */,
 				3CA953F61CB9694800B0C80E /* AppDelegate.swift in Sources */,
 				3CFF188A1CBAC18100B71AC1 /* Button.swift in Sources */,
 				3CFF18851CBAB61500B71AC1 /* PatientMedicationsViewController.swift in Sources */,
 				3CFF18831CBAB0F000B71AC1 /* PresentationContext.swift in Sources */,
+				3CB608521CCCD9A900E532CB /* ConvenienceExtensions.swift in Sources */,
 				3C40EB091CBAAD500087C071 /* R.generated.swift in Sources */,
 				3CFF18871CBAB7B700B71AC1 /* Validation.swift in Sources */,
 			);

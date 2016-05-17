@@ -8,10 +8,16 @@
 
 import UIKit
 import SMART
+import Operations
+
+extension Queue {
+    func perform(block: () -> Void) {
+        dispatch_async(self.queue, block)
+    }
+}
 
 class SignInViewController: UIViewController {
-
-    var completionHandler :((controller: SignInViewController)->Void)?
+    var completionHandler: ((controller: SignInViewController) -> Void)?
 
     @IBOutlet weak var userNameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -33,10 +39,22 @@ class SignInViewController: UIViewController {
 
         let server = SignInController.sharedSignInController.server
 
-
-        Patient.search(["name": "Henry"]).perform(server) {  [weak self] (bundle, error) in
+        Patient.search(["_id": ["$exact": "f001"]]).perform(server) { [weak self](bundle, error) in
 
             guard let strongSelf = self else {
+                return
+            }
+
+            guard error == nil else {
+                Queue.Main.perform {
+                    strongSelf.submitButton.alpha = 1
+                    strongSelf.activityIndicator.stopAnimating()
+
+                    let alert = UIAlertController(title: "Error while signing in", message: nil, preferredStyle: .Alert)
+                    alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+
+                    strongSelf.presentViewController(alert, animated: true, completion: nil)
+                }
                 return
             }
 
@@ -44,9 +62,12 @@ class SignInViewController: UIViewController {
                 .filter() { return $0.resource is Patient }
                 .map() { return $0.resource as! Patient }
 
+            let ids = patients?.map() { $0.id }
+
+            print(ids)
+            // print(identifierss)
 
             if let patient = patients?.first {
-
                 SignInController.sharedSignInController.patient = patient
 
                 strongSelf.completionHandler?(controller: strongSelf)
@@ -55,13 +76,5 @@ class SignInViewController: UIViewController {
                 strongSelf.activityIndicator.stopAnimating()
             }
         }
-
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
